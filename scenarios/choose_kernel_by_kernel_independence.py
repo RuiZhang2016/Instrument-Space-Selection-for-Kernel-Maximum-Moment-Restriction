@@ -2,7 +2,7 @@ import os, sys
 import autograd.numpy as np
 from autograd import value_and_grad
 from scipy.optimize import minimize
-from util_original import get_median_inter_mnist, Kernel, load_data, ROOT_PATH, jitchol, _sqdist, \
+from util import get_median_inter_mnist, Kernel, load_data, ROOT_PATH, jitchol, _sqdist, \
     remove_outliers, nystrom_decomp, chol_inv
 from joblib import Parallel, delayed
 import time
