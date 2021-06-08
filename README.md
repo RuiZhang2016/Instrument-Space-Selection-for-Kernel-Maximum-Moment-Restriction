@@ -1,4 +1,4 @@
-# Instrument space selection for KMMR
+# A Python Implementation for Instrument space selection for KMMR (http://arxiv.org/abs/2106.03340)
 
 1. Install virtual environment: conda create -n LISC python=3.6
 2. Activate environment: conda activate LISC
